@@ -25,3 +25,29 @@ header {
     font-family: 'Arial', sans-serif;
     display: inline-block;
 }
+
+.background2 {
+    background-color: red;
+    color: white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 20px;
+    transition: background-color 1s ease-in-out;
+}
+
+.background2:hover {
+    background-color: rgb(247, 129, 129);
+}
+
+.titulo2 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.titulo2:hover {
+    background-color: #ffffff;
+}
